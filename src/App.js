@@ -28,7 +28,7 @@ class App extends Component {
         score: 0
       })
     }
-    if (topScore <= score) {
+    if (topScore < score || topScore === 0) {
       this.setState({
         topScore: topScore + 1
       })
