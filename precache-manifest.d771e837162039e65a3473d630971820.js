@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7bf1d25418067e4cf720034be9fdb5b",
+    "revision": "db7462090a31ce84c08451d0ff95377f",
     "url": "/vonnegut-game/index.html"
   },
   {
-    "revision": "30ebdf3b40671198312d",
+    "revision": "22759324b3e1af6292cb",
     "url": "/vonnegut-game/static/css/main.90a162b7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vonnegut-game/static/js/2.0390108b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30ebdf3b40671198312d",
-    "url": "/vonnegut-game/static/js/main.7d78d2b3.chunk.js"
+    "revision": "22759324b3e1af6292cb",
+    "url": "/vonnegut-game/static/js/main.039e66af.chunk.js"
   },
   {
     "revision": "a64d1a33b31c81d40e9c",
