@@ -12,12 +12,14 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        {this.state.books.map(book => (
-          <Book 
-            key={book.id}
-            image={book.image}
+        {this.state.books.map((book, index) => {
+          console.log("index", index)
+            return <Book 
+              key={book.id}
+              image={book.image}
             />
-        ))}
+          }
+        )}
       </Wrapper>
     );
   }

@@ -53,5 +53,10 @@
     "id": 11,
     "name": "slaughterhouse-five",
     "image": "/images/slaughterhouse-five.jpg"
+  },
+  {
+    "id": 12,
+    "name": "monkey-house",
+    "image": "/images/monkey-house.jpg"
   }
 ]
