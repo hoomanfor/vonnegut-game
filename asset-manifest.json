@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/vonnegut-game/static/css/main.fd2ec63a.chunk.css",
-    "main.js": "/vonnegut-game/static/js/main.06633094.chunk.js",
-    "main.js.map": "/vonnegut-game/static/js/main.06633094.chunk.js.map",
+    "main.css": "/vonnegut-game/static/css/main.90a162b7.chunk.css",
+    "main.js": "/vonnegut-game/static/js/main.7d78d2b3.chunk.js",
+    "main.js.map": "/vonnegut-game/static/js/main.7d78d2b3.chunk.js.map",
     "runtime-main.js": "/vonnegut-game/static/js/runtime-main.18182b14.js",
     "runtime-main.js.map": "/vonnegut-game/static/js/runtime-main.18182b14.js.map",
-    "static/js/2.296562f4.chunk.js": "/vonnegut-game/static/js/2.296562f4.chunk.js",
-    "static/js/2.296562f4.chunk.js.map": "/vonnegut-game/static/js/2.296562f4.chunk.js.map",
+    "static/js/2.0390108b.chunk.js": "/vonnegut-game/static/js/2.0390108b.chunk.js",
+    "static/js/2.0390108b.chunk.js.map": "/vonnegut-game/static/js/2.0390108b.chunk.js.map",
     "index.html": "/vonnegut-game/index.html",
-    "precache-manifest.be18d6d9928b2bcf4e1ddef2ed8d9f72.js": "/vonnegut-game/precache-manifest.be18d6d9928b2bcf4e1ddef2ed8d9f72.js",
+    "precache-manifest.51d46f064a0f2412b77f76e88a4a1d5e.js": "/vonnegut-game/precache-manifest.51d46f064a0f2412b77f76e88a4a1d5e.js",
     "service-worker.js": "/vonnegut-game/service-worker.js",
-    "static/css/main.fd2ec63a.chunk.css.map": "/vonnegut-game/static/css/main.fd2ec63a.chunk.css.map",
-    "static/js/2.296562f4.chunk.js.LICENSE.txt": "/vonnegut-game/static/js/2.296562f4.chunk.js.LICENSE.txt"
+    "static/css/main.90a162b7.chunk.css.map": "/vonnegut-game/static/css/main.90a162b7.chunk.css.map",
+    "static/js/2.0390108b.chunk.js.LICENSE.txt": "/vonnegut-game/static/js/2.0390108b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.18182b14.js",
-    "static/js/2.296562f4.chunk.js",
-    "static/css/main.fd2ec63a.chunk.css",
-    "static/js/main.06633094.chunk.js"
+    "static/js/2.0390108b.chunk.js",
+    "static/css/main.90a162b7.chunk.css",
+    "static/js/main.7d78d2b3.chunk.js"
   ]
 }
