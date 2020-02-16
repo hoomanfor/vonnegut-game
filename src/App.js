@@ -9,6 +9,16 @@ class App extends Component {
     books
   };
 
+  shuffleBooks = (id) => {
+    console.log("This works", id)
+    const books = this.state.books; 
+    for (let i = books.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [books[i], books[j]] = [books[j], books[i]];
+    }
+    this.setState({ books })
+  }
+
   render() {
     return (
       <Wrapper>
@@ -16,7 +26,10 @@ class App extends Component {
           console.log("index", index)
             return <Book 
               key={book.id}
+              id={book.id}
               image={book.image}
+              name={book.name}
+              shuffleBooks={this.shuffleBooks}
             />
           }
         )}
