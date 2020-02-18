@@ -4,6 +4,7 @@
   flex-flow: row wrap;
   padding: 25px 200px;
   width: 80%;
+  max-width: 1140px;
   justify-content: space-around;
   align-content: flex-start;
   margin: auto;

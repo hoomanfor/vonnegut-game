@@ -1,0 +1,99 @@
+.flex-header {
+    background-color: rgb(186,225,206);
+    /* border-top: 4px solid black; */
+    border-bottom: 4px solid rgb(35,31,32);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex; 
+}
+
+.flex-children {
+    flex: 1 1 auto;
+    padding: 5px 0;
+}
+
+.sub-heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+.heading {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-align: right;
+    font-size: 1.6rem;
+    align-self: flex-end;
+}
+
+.notification {
+    align-self: flex-end;
+    color: #213F8D;
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.start {
+    animation-duration: 500ms;
+    animation-name: blink-start;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink-start {
+    from {
+        color: #213F8D;
+    }
+    to {
+        color: #8688B1;
+    }
+}
+
+.correct {
+    animation-duration: 400ms;
+    animation-name: blink-correct;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes blink-correct {
+    from {
+        color: #61BC47;
+    }
+    to {
+        color: #213F8D;
+    }
+}
+
+.incorrect {
+    animation-duration: 400ms;
+    animation-name: blink-incorrect;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes blink-incorrect {
+    from {
+        color: #ED3944;
+    }
+    to {
+        color: #213F8D;
+    }
+}
+
+.score {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.6rem;
+    /* font-weight: 700; */
+    align-self: flex-end;
+}
+
+/* ----
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Akronim', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'IBM Plex Mono', monospace;
+---- */

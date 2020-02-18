@@ -10,7 +10,9 @@ class App extends Component {
     books,
     score: 0,
     topScore: 0,
-    guesses: []
+    guesses: [],
+    notification: "Don't Click the Same Book Twice!",
+    notificationClass: "flex-children notification start"
   };
 
   shuffleBooks = (id) => {
@@ -20,18 +22,27 @@ class App extends Component {
     if (guesses.indexOf(id) === -1) {
       this.setState({
         guesses: [...this.state.guesses, id],
-        score: score + 1
+        score: score + 1, 
+        notification: "Nice Job! Click Again!",
+        notificationClass: "flex-children notification correct"
       })
-    } else {
+      setTimeout(() => this.setState({notificationClass: "flex-children notification"}), 500);
+    } else if (guesses.indexOf(id) !== -1) {
       this.setState({
         guesses: [],
-        score: 0
+        score: 0,
+        notification: "You already chose this one! Start Over!",
+        notificationClass: "flex-children notification incorrect"
       })
-    }
-    if (topScore < score || topScore === 0) {
+      setTimeout(() => this.setState({notificationClass: "flex-children notification"}), 500);
+    } 
+    if (topScore <= score && guesses.indexOf(id) === -1) {
       this.setState({
-        topScore: topScore + 1
+        topScore: topScore + 1,
+        notification: "Nice Job! Click Again!",
+        notificationClass: "flex-children notification correct"
       })
+      setTimeout(() => this.setState({notificationClass: "flex-children notification"}), 500);
     }
     const books = this.state.books; 
     for (let i = books.length - 1; i > 0; i--) {
@@ -48,6 +59,8 @@ class App extends Component {
           score={this.state.score}
           topScore={this.state.topScore}
           guesses={this.state.guesses}
+          notification={this.state.notification}
+          notificationClass={this.state.notificationClass}
         />
           <Wrapper>
             {this.state.books.map((book, index) => {
