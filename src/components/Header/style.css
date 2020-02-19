@@ -7,13 +7,13 @@
 }
 
 .flex-children {
-    flex: 1 1 auto;
-    padding: 5px 0;
+    flex: 1 1 0px;
+    padding: 5px 0 0 0;
 }
 
 .sub-heading {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     text-align: right;
 }
 
@@ -28,9 +28,9 @@
     align-self: flex-end;
     color: #213F8D;
     font-family: 'Bangers', cursive;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .start {
@@ -86,6 +86,43 @@
     font-size: 1.6rem;
     /* font-weight: 700; */
     align-self: flex-end;
+}
+
+@media only screen and (max-width: 1370px) {
+    .sub-heading {
+        font-size: 1.2rem;
+    }
+    .heading {
+        font-size: 1.4rem;
+    }
+    .notification {
+        font-size: 1.6rem;
+    }
+    .score {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .flex-header {
+        flex-direction: column;
+    }
+    .sub-heading {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .heading {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .notification {
+        font-size: 1.4rem;
+        align-self: center;
+    }
+    .score {
+        font-size: 1.2rem;
+        align-self: center;
+    }
 }
 
 /* ----

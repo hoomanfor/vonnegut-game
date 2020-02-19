@@ -2,3 +2,20 @@
     cursor: pointer;
     margin: 10px;
 }
+
+.img-container:hover {
+    transform: scale(1.05);
+    transition: transform 200ms;
+}
+
+.img-container img {
+    border: 2px solid rgba(0, 0, 0, .7);
+    border-radius: 3px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-container img:hover {
+    border: 2px solid rgba(0, 0, 0, .7);
+    border-radius: 3px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+}

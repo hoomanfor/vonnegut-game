@@ -15,6 +15,19 @@ class App extends Component {
     notificationClass: "flex-children notification start"
   };
 
+  checkTopScore = () => {
+    let topScore = this.state.topScore;
+    if (topScore === 12) {
+      this.setState({
+        guesses: [],
+        score: 0,
+        notification: "Winner! 12 is the Best Possible Score!",
+        notificationClass: "flex-children notification correct"
+      })
+      setTimeout(() => this.setState({notificationClass: "flex-children notification"}), 500);
+    }
+  }
+
   shuffleBooks = (id) => {
     const guesses = this.state.guesses;
     let score = this.state.score;
@@ -43,6 +56,7 @@ class App extends Component {
         notificationClass: "flex-children notification correct"
       })
       setTimeout(() => this.setState({notificationClass: "flex-children notification"}), 500);
+      setTimeout(() => this.checkTopScore(), 600);
     }
     const books = this.state.books; 
     for (let i = books.length - 1; i > 0; i--) {
