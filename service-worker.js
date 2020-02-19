@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vonnegut-game/precache-manifest.e474aeed32f127bbfb1c2d36418e5e99.js"
+  "/vonnegut-game/precache-manifest.f7ff92224a47f6f5ec0a925a9d2474a1.js"
 );
 
 self.addEventListener('message', (event) => {

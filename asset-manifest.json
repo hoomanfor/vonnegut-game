@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/vonnegut-game/static/css/main.12a013e8.chunk.css",
-    "main.js": "/vonnegut-game/static/js/main.39d771b9.chunk.js",
-    "main.js.map": "/vonnegut-game/static/js/main.39d771b9.chunk.js.map",
+    "main.css": "/vonnegut-game/static/css/main.f3ca578e.chunk.css",
+    "main.js": "/vonnegut-game/static/js/main.1216f00b.chunk.js",
+    "main.js.map": "/vonnegut-game/static/js/main.1216f00b.chunk.js.map",
     "runtime-main.js": "/vonnegut-game/static/js/runtime-main.18182b14.js",
     "runtime-main.js.map": "/vonnegut-game/static/js/runtime-main.18182b14.js.map",
     "static/js/2.0390108b.chunk.js": "/vonnegut-game/static/js/2.0390108b.chunk.js",
     "static/js/2.0390108b.chunk.js.map": "/vonnegut-game/static/js/2.0390108b.chunk.js.map",
     "index.html": "/vonnegut-game/index.html",
-    "precache-manifest.e474aeed32f127bbfb1c2d36418e5e99.js": "/vonnegut-game/precache-manifest.e474aeed32f127bbfb1c2d36418e5e99.js",
+    "precache-manifest.f7ff92224a47f6f5ec0a925a9d2474a1.js": "/vonnegut-game/precache-manifest.f7ff92224a47f6f5ec0a925a9d2474a1.js",
     "service-worker.js": "/vonnegut-game/service-worker.js",
-    "static/css/main.12a013e8.chunk.css.map": "/vonnegut-game/static/css/main.12a013e8.chunk.css.map",
+    "static/css/main.f3ca578e.chunk.css.map": "/vonnegut-game/static/css/main.f3ca578e.chunk.css.map",
     "static/js/2.0390108b.chunk.js.LICENSE.txt": "/vonnegut-game/static/js/2.0390108b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.18182b14.js",
     "static/js/2.0390108b.chunk.js",
-    "static/css/main.12a013e8.chunk.css",
-    "static/js/main.39d771b9.chunk.js"
+    "static/css/main.f3ca578e.chunk.css",
+    "static/js/main.1216f00b.chunk.js"
   ]
 }
